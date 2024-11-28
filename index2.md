@@ -2,11 +2,11 @@
 layout: base
 title: "AttaliTech | Expert R-Shiny Consulting"
 css:
-  - /assets/css/index.css
+  - /assets/css/index2.css
 ext-css:
   - //fonts.googleapis.com/css?family=Roboto:400,700
 js:
-  - /assets/js/index.js
+  - /assets/js/index2.js
 ext-js:
   - //cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js
 ---
