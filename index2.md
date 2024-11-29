@@ -1,23 +1,23 @@
 ---
 layout: base
-title: "AttaliTech | Expert R-Shiny Consulting"
+title: "Peak Python | Expert Python Ibis and Snowflake Consulting"
 css:
-  - /assets/css/index2.css
+  - /assets/css/index.css
 ext-css:
   - //fonts.googleapis.com/css?family=Roboto:400,700
 js:
   - /assets/js/index2.js
 ext-js:
-  - //cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js
+  - //cdn.jsdelivr.net/npm/particlesjs@2.2.3/dist/particles.min.js
 ---
 
 <div id="header" class="cut1" markdown="1">
 
 <div id="header-inner" markdown="1">
 
-# AttaliTech {#title}
+# Peak Python {#title}
 
-## R-Shiny Consulting {#subtitle}
+## Python Ibis and Snowflake Consulting {#subtitle}
 
 #### Led by World-Renowned Shiny Expert [Dean Attali](https://deanattali.com/) {#sub-subtitle}
 
