@@ -7,8 +7,6 @@ ext-css:
   - //fonts.googleapis.com/css?family=Roboto:400,700
 js:
   - /assets/js/index2.js
-ext-js:
-  - //cdn.jsdelivr.net/npm/particlesjs@2.2.3/dist/particles.min.js
 ---
 
 <div id="header" class="cut1" markdown="1">
@@ -19,7 +17,7 @@ ext-js:
 
 ## Python Ibis and Snowflake Consulting {#subtitle}
 
-#### Led by World-Renowned Shiny Expert [Dean Attali](https://deanattali.com/) {#sub-subtitle}
+#### Led by Data Engineering, Visualization and Data Science Expert Stephen McDaniel {#sub-subtitle}
 
 <a href="/contact" class="actionbtn">
   <span class="far fa-envelope" aria-hidden="true"></span>
@@ -29,7 +27,58 @@ ext-js:
 
 </div>
 
-<div id="particles-js"></div>
+<div id="tsparticles"></div>
+<script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.0.6/tsparticles.slim.bundle.min.js"></script>
+<script type="text/javascript">
+const options = {
+background: {
+  color: "#000", // the canvas background color
+},
+interactivity: {
+  events: {
+    onClick: {
+      // this handles the mouse click event
+      enable: true,
+      mode: "push", // this adds particles
+    },
+    onHover: {
+      // this handles the mouse hover event
+      enable: true,
+      mode: "repulse", // this make particles move away from the mouse
+    },
+  },
+  modes: {
+    push: {
+      quantity: 7, // number of particles to add
+    },
+    repulse: {
+      distance: 100, // the distance of the particles from the mouse
+    },
+  },
+},
+particles: {
+  links: {
+    enable: true, // this enables links between particles
+    opacity: 0.3,
+    distance: 200,
+  },
+  move: {
+    enable: true, // this makes particles move
+    speed: { min: 0.1, max: 1 }, // this is the speed of the particles
+  },
+  opacity: {
+    value: { min: 0.2, max: 0.8 }, // this sets the opacity of the particles
+  },
+  size: {
+    value: { min: 1, max: 7 }, // this sets the size of the particles
+  },
+},
+};
+
+// tsParticles.load has two parameters, the first one is the id of the container, the second one is an object with the options
+tsParticles.load("tsparticles", options);
+</script>
+
 
 </div>
 
