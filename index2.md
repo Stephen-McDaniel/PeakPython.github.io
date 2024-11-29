@@ -13,20 +13,6 @@ js:
 
 <div id="header-inner" markdown="1">
 
-# Peak Python {#title}
-
-## Python Ibis and Snowflake Consulting {#subtitle}
-
-#### Led by Data Engineering, Visualization and Data Science Expert Stephen McDaniel {#sub-subtitle}
-
-<a href="/contact" class="actionbtn">
-  <span class="far fa-envelope" aria-hidden="true"></span>
-  Contact Us
-</a>
-{: .actionbtn-out :}
-
-</div>
-
 <div id="tsparticles"></div>
 <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.0.6/tsparticles.slim.bundle.min.js"></script>
 <script type="text/javascript">
@@ -78,7 +64,17 @@ particles: {
 // tsParticles.load has two parameters, the first one is the id of the container, the second one is an object with the options
 tsParticles.load("tsparticles", options);
 </script>
+# Peak Python {#title}
 
+## Python Ibis and Snowflake Consulting {#subtitle}
+
+#### Led by Data Engineering, Visualization and Data Science Expert Stephen McDaniel {#sub-subtitle}
+
+<a href="/contact" class="actionbtn">
+  <span class="far fa-envelope" aria-hidden="true"></span>
+  Contact Us
+</a>
+{: .actionbtn-out :}
 
 </div>
 
