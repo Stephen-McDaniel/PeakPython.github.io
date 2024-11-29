@@ -8,7 +8,28 @@ ext-css:
 js:
   - /assets/js/index2.js
 ---
-
+<style>    #container {
+        position: relative;
+    }
+    
+    #tsparticles {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        padding: 0;
+        margin: 0;
+        z-index: 0; /* if you use -1 you have to set to `"window"` the interactivity.detectsOn property */
+    }
+    
+    #your-div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    </style>
 <div id="header" class="cut1" markdown="1">
 
 <div id="header-inner" markdown="1">
@@ -17,9 +38,6 @@ js:
 <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.0.6/tsparticles.slim.bundle.min.js"></script>
 <script type="text/javascript">
 const options = {
-background: {
-  color: "#000", // the canvas background color
-},
 interactivity: {
   events: {
     onClick: {
