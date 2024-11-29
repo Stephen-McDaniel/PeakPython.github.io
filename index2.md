@@ -103,7 +103,7 @@ tsParticles.load("tsparticles", options);
 
 <div id="services-out" class="page-section cut1">
   <div id="services">
-    <div class="section-title">123. What We Offer</div>
+    <div class="section-title">321. What We Offer</div>
     <div id="services-list">
       <div class="service">
         <img class="service-img" alt="Service image" src="/assets/img/scale-flexiple/Complex dashboard.png" />
